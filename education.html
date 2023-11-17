@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Caroline Calixto Portfolio</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
+            rel="stylesheet">
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <section class="home-page">
+            <div class="container">
+                <div class="card">
+                    <div class="search-bar">
+                        <ul class="buttons">
+                            <li onclick="voltar()"><img class="arrow-left"
+                                    src="./assets/seta-direita.png"
+                                    alt="seta direita"></li>
+                            <li onclick="avancar()"><img class="arrow-right"
+                                    src="./assets/seta-direita.png"
+                                    alt="seta direita"></li>
+                            <li onclick="recarregarPagina()">
+                                <img
+                                    class="refresh"
+                                    src="./assets/refresh.png"
+                                    alt="recarregar"></li>
+                        </ul>
+                        <div class="barra-pesquisa">
+                            <input type="text" class="search-box" readonly
+                                value="https://caroline-calixto.github.io/education">
+                        </div>
+                    </div>
+
+                    <div class="education-container">
+                        <div class="education-group">
+                            <div class="g-title">
+                                <h1> + GRADUAÇÃO</h1>
+                            </div>
+                            <div class="g-description"
+                                onmouseover="playHoverSound()"
+                                onmouseout="pauseHoverSound()">
+                                <p>Bacharel em Ciências Contábeis na
+                                    Universidade Anhembi Morumbi (concluído)</p>
+                                <p>Tecnologia em Análise e desenvolvimento de
+                                    sistemas na Faculdade Descomplica (Cursando)</p>
+                            </div>
+                        </div>
+
+                        <div class="education-group">
+                            <div class="g-title">
+                                <h1> + CURSO TÉCNICO</h1>
+                            </div>
+                            <div class="g-description"
+                                onmouseover="playHoverSound()"
+                                onmouseout="pauseHoverSound()">
+                                <p>Informática – Etec Lauro Gomes (dez/2012) -
+                                    concluído</p>
+                            </div>
+                        </div>
+
+                        <div class="education-group">
+                            <div class="g-title">
+                                <h1> + CURSOS COMPLEMENTARES</h1>
+                            </div>
+                            <div>
+                                <ul class="courses-list">
+                                    <li class="g-description"
+                                        onmouseover="playHoverSound()">
+                                        <a href="/index.html">Desenvolvedor
+                                            fullstack - Generation Brasil</a></li>
+                                    <li class="g-description"
+                                        onmouseover="playHoverSound()">Next.js -
+                                        Udemy</li>
+                                    <li class="g-description"
+                                        onmouseover="playHoverSound()">NodeJs -
+                                        Udemy</li>
+                                    <li class="g-description"
+                                        onmouseover="playHoverSound()">Algoritmos
+                                        e Lógica
+                                        de Programação - Udemy</li>
+                                    <li class="g-description"
+                                        onmouseover="playHoverSound()">UX design
+                                        - How
+                                        bootcamps</li>
+                                    <li class="g-description"
+                                        onmouseover="playHoverSound()">UI design
+                                        -
+                                        Origamid</li>
+                                    <li class="g-description"
+                                        onmouseover="playHoverSound()">Photoshop
+                                        - Clube
+                                        do design</li>
+                                    <li class=" g-description"
+                                        onmouseover="playHoverSound()">Illustrator
+                                        - Clube
+                                        do design</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="education-group">
+                            <div class="g-title">
+                                <h1>+ IDIOMAS</h1>
+                            </div>
+                            <div class="g-description"
+                                onmouseover="playHoverSound()"
+                                onmouseout="pauseHoverSound()">
+                                <p>Inglês: Níveis intermediarios de escrita,
+                                    conversa e leitura</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="return">
+                        <span class="btn-return" onclick="voltar()">Início</span>
+                    </div>
+
+                    <audio id="hoverSound">
+                        <source src="./assets/audio/select.wav"
+                            type="audio/mp3">
+                    </audio>
+
+                    <div class="copyright">
+                        <span>copyright © Caroline Calixto</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <script src="./script.js"></script>
+    </body>
+</html>

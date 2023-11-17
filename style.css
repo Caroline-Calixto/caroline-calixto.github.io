@@ -1,0 +1,224 @@
+body {
+    background-color: antiquewhite;
+}
+
+.home-page {
+    display: grid;
+    justify-content: center;
+    margin: 128px;
+}
+
+.container {
+    align-items: center;
+    border: 1px solid;
+    width: 600px;
+    height: auto;
+    display: grid;
+
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.card {
+    background-color: white;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: #99a9ea;
+}
+
+.search-bar ul {
+    list-style: none;
+}
+
+.buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.barra-pesquisa {
+    align-self: center;
+    margin-left: 16px;
+}
+
+.search-box {
+    width: 400px !important;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #99a9ea;
+    border-radius: 5px;
+    outline: none;
+    font-family: "Silkscreen", sans-serif;
+    font-size: 12px;
+}
+
+.search-box:focus,
+.search-button:focus {
+    border-color: #4caf50;
+}
+
+.arrow-right,
+.arrow-left,
+.refresh {
+    height: 1em;
+    width: 1em;
+}
+
+.arrow-left {
+    transform: rotateY(180deg);
+}
+
+.card-container,
+.education-container {
+    display: grid;
+    margin: 32px;
+    background-image: radial-gradient(circle at 3px 3px, #f1f2f4 1px, transparent 2px);
+    background-size: 20px 20px;
+}
+
+.card-container {
+    grid-template-columns: 1fr 1fr;
+}
+
+.column-1,
+.column-2 {
+    text-align: center;
+}
+
+.picture img {
+    width: 15rem;
+    border-radius: 1rem;
+    transition: none;
+
+}
+
+ul.social-media {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+.icon img {
+    width: 32px;
+    height: 32px;
+}
+
+li.icon :hover,
+ul.navigation :hover {
+    cursor: pointer;
+}
+
+ul.navigation {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.name {
+    font-family: "Silkscreen", serif;
+    font-size: 24px;
+    color: #99a9ea;
+}
+
+.column-2 {
+    text-align: center;
+    align-self: center;
+    padding: 16px;
+}
+
+.navigation {
+    display: grid;
+    gap: 8px;
+}
+
+.navigation button {
+    width: 200px;
+    background-color: black;
+    color: white;
+    height: 32px;
+    border-radius: 5px;
+    font-family: "Silkscreen", sans-serif;
+}
+
+.navigation button:hover {
+    background-color: #fff;
+    color: black;
+    outline: 1px solid black;
+    outline-offset: 2px;
+}
+
+.description,
+.title {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.title {
+    margin: 0;
+}
+
+.description {
+    text-align: justify;
+}
+
+.copyright {
+    text-align: center;
+    margin: 8px;
+    font-family: "Silkscreen", sans-serif;
+    font-size: 10px;
+}
+
+.hoverSound {
+    display: none;
+}
+
+
+/* Estilização página de educação */
+
+.education-container h1,h2, h3,h4 {
+    font-family: "Silkscreen", serif;
+    font-size: 16px;
+    color:#99a9ea;
+}
+
+.g-description {
+    font-family: "Josefin Sans", sans-serif;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 16px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.g-description:hover {
+    background-color: white;
+    color: black;
+    outline: 1px solid black;
+    outline-offset: 2px;
+}
+
+.btn-return {
+    color: #7da8e1;
+    font-family: "Silkscreen", sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+.return {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
+.courses-list {
+padding: 0;
+}
+ul.courses-list {
+    list-style: none;
+}
+
+.courses-list li{
+    margin-bottom: 5px;
+}

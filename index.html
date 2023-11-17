@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Caroline Calixto Portfolio</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
+            rel="stylesheet">
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <section class="home-page">
+            <div class="container">
+                <div class="card">
+                    <div class="search-bar">
+                        <ul class="buttons">
+                            <li onclick="voltar()"><img class="arrow-left"
+                                    src="./assets/seta-direita.png"
+                                    alt="seta direita"></li>
+                            <li onclick="avancar()"><img class="arrow-right"
+                                    src="./assets/seta-direita.png"
+                                    alt="seta direita"></li>
+                            <li onclick="recarregarPagina()">
+                                <img
+                                    class="refresh"
+                                    src="./assets/refresh.png"
+                                    alt="recarregar"></li>
+                        </ul>
+                        <div class="barra-pesquisa">
+                            <input type="text" class="search-box" readonly
+                                value="https://caroline-calixto.github.io/home">
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="column-1">
+                            <div class="picture">
+                                <img src="./assets/mirai-avatar.jpeg" alt>
+                            </div>
+                            <h1 class="name">Caroline Calixto</h1>
+                            <p class="title">Fullstack Developer </p>
+                            <p class="title">São Paulo - BR </p>
+
+                            <ul class="social-media">
+                                <li class="icon"><a
+                                        href="https://www.linkedin.com/in/carolinecolares/"><img
+                                            src="./assets/LinkedIn.png" alt></a></li>
+                                <li class="icon"><a
+                                        href="https://github.com/Caroline-Calixto"><img
+                                            src="/assets/GitHub.png" alt></a></li>
+                                <li class="icon"><a
+                                        href="https://web.whatsapp.com/"><img
+                                            src="./assets/Mail.png" alt></a></li>
+                            </ul>
+
+                        </div>
+                        <div class="column-2">
+                            <ul class="navigation">
+                                <li><button onmouseover="playHoverSound()"
+                                        onmouseout="pauseHoverSound()"
+                                        onclick="educationRef()">EDUCAÇÃO</button></li>
+                                <li><button onmouseover="playHoverSound()"
+                                        onmouseout="pauseHoverSound()">EXPERIÊNCIA</button></li>
+                                <li><button onmouseover="playHoverSound()"
+                                        onmouseout="pauseHoverSound()">PORTFOLIO</button></li>
+                            </ul>
+                            <audio id="hoverSound">
+                                <source src="./assets/audio/select.wav"
+                                    type="audio/mp3">
+                            </audio>
+
+                            <p class="description">
+                                Olá, sou uma desenvolvedora web com foco nas
+                                tecnologias React, Angular e NodeJs.
+                            </p>
+                            <p class="description">
+                                Espero contribuir de forma significativa para o
+                                sucesso de seu projeto,
+                                sempre buscando a excelência técnica e a
+                                satisfação dos
+                                clientes. </p>
+                            <p class="description">
+                                Obrigada por seu acesso. Estou à disposição
+                                para discutir mais sobre minhas experiências e trocarmos mensagens.
+                            </p>
+
+                            <br>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <span>copyright © Caroline Calixto</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
