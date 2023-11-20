@@ -1,11 +1,11 @@
 function playHoverSound() {
-    var audio = document.getElementById("hoverSound");
+    let audio = document.getElementById("hoverSound");
     audio.play();
 }
 
 // Função para pausar o som ao retirar o cursor do botão
 function pauseHoverSound() {
-    var audio = document.getElementById("hoverSound");
+    let audio = document.getElementById("hoverSound");
     audio.pause();
     audio.currentTime = 0;
 }
@@ -25,4 +25,12 @@ function avancar() {
 
 function educationRef() {
     window.location.href = 'education.html';
+}
+
+function experienceRef() {
+    window.location.href = 'experience.html';
+}
+
+function portfolioRef() {
+    window.location.href = 'portfolio.html';
 }

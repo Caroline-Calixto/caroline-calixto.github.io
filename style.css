@@ -14,6 +14,7 @@ body {
     width: 600px;
     height: auto;
     display: grid;
+    background-color: #fff;
 
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -72,7 +73,7 @@ body {
 }
 
 .card-container,
-.education-container {
+.education-container,  .e-container {
     display: grid;
     margin: 32px;
     background-image: radial-gradient(circle at 3px 3px, #f1f2f4 1px, transparent 2px);
@@ -221,4 +222,56 @@ ul.courses-list {
 
 .courses-list li{
     margin-bottom: 5px;
+}
+
+.img-experiencia {
+    padding: 32px;
+}
+
+.e-header {
+    text-align: center
+}
+
+.e-description ul, ul.e-technologies-list{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.e-description li, .e-technologies-list li {
+    margin-bottom: 5px;
+}
+
+.e-title {
+    font-family: "Silkscreen", serif;
+    color: #99a9ea;
+}
+
+.e-technologies-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+/* estilização da parte de porftofio */
+
+.project-group {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 16px;
+    margin: 32px;
+    border: 1px solid;
+    box-shadow: 8px 10px 0px 0px rgba(0,0,0,1);
+-webkit-box-shadow: 8px 10px 0px 0px rgba(0,0,0,1);
+-moz-box-shadow: 8px 10px 0px 0px rgba(0,0,0,1);
+}
+
+.project-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.banner-header{
+    align-items: center;
+    align-self: center;
 }

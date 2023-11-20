@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Caroline Calixto Portfolio</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
+            rel="stylesheet">
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <section class="home-page">
+            <div class="container">
+                <!-- Cabeçalho -->
+                <div class="card">
+                    <div class="search-bar">
+                        <ul class="buttons">
+                            <li onclick="voltar()"><img class="arrow-left"
+                                    src="./assets/seta-direita.png"
+                                    alt="seta direita"></li>
+                            <li onclick="avancar()"><img class="arrow-right"
+                                    src="./assets/seta-direita.png"
+                                    alt="seta direita"></li>
+                            <li onclick="recarregarPagina()">
+                                <img
+                                    class="refresh"
+                                    src="./assets/refresh.png"
+                                    alt="recarregar"></li>
+                        </ul>
+                        <div class="barra-pesquisa">
+                            <input type="text" class="search-box" readonly
+                                value="https://caroline-calixto.github.io/experience.html">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experiencia na NTTdata -->
+                <div class="e-container">
+                    <div class="e-header">
+                        <img class="img-experiencia"
+                            src="./assets/img-experiencia.svg">
+                    </div>
+                    <h1 class="e-title">NTT DATA Europe & LATAM</h1>
+                    <div class="e-description">
+                        <ul>
+                            <li> <img src="./assets/item.png"> Análise de
+                                requisitos e colaboração com equipes
+                                internas e externas na produção de design e
+                                arquitetura de softwares.</li>
+                            <li><img src="./assets/item.png"> Revisão,
+                                atualização, refatoração e depuração de
+                                códigos TypeScript.</li>
+                            <li><img src="./assets/item.png"> Aprimoramento
+                                de softwares existentes, migrando
+                                de Angular 8 para NextJS.</li>
+                            <li><img src="./assets/item.png"> Codificação de
+                                layout responsivo e criação de
+                                componentes reutilizáveis utilizando
+                                styled-components.</li>
+                            <li><img src="./assets/item.png"> Manutenção da
+                                consistência entre os protótipos
+                                apresentados pela equipe de UX ao desenvolver o
+                                código do front-end pixel perfect.</li>
+                            <li><img src="./assets/item.png"> Utilização de
+                                metodologias ágeis SCRUM/Kanban.</li>
+                            <li><img src="./assets/item.png"> Experiência em
+                                projetos responsivos, adaptação
+                                para dispositivos móveis e desktops utilizando
+                                Bootstrap, CSS e a biblioteca ANT Design.</li>
+                            <li><img src="./assets/item.png"> Conhecimentos
+                                básicos de GIT e linha de comando.</li>
+                            <li><img src="./assets/item.png"> Criação de
+                                eventos de trackeamento e
+                                monitoramento de cliques no Google Tag Manager.</li>
+                        </ul>
+                    </div>
+                    <div class="e-technologies">
+                        <h2>Keywords</h2>
+                        <ul class="e-technologies-list">
+                            <li>Angular</li>
+                            <li>NextJS</li>
+                            <li>Google Tag Manager</li>
+                            <li>GitHub</li>
+                            <li>Slack</li>
+                            <li>Node.js</li>
+                            <li>styled-components</li>
+                            <li>Ant Design</li>
+                            <li>Angular Material</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+
+                    <!-- Experiencia Freelancer -->
+                    <h1 class="e-title">EXPERIÊNCIA FREELANCER</h1>
+                    <h2 class="e-title">RECANTO DOS NOBRES</h1>
+
+                    <div class="e-description">
+                        <ul>
+                            <li><img src="./assets/item.png">Desenvolvimento
+                                front-end de interfaces atraentes e funcionais
+                                para sites.</li>
+                            <li><img src="./assets/item.png">Configuração de
+                                campanhas no Google Ads para
+                                aumentar a visibilidade online e
+                                atrair tráfego qualificado.</li>
+                            <li><img src="./assets/item.png">Utilização do
+                                Google Tag Manager para gerenciar
+                                e rastrear eventos, conversões e
+                                métricas essenciais
+                            </li>
+                            <li><img src="./assets/item.png">Integração de
+                                técnicas de SEO para otimizar o
+                                desempenho dos sites em
+                                mecanismos de busca</li>
+                            <li><img src="./assets/item.png">Seleção e
+                                configuração de serviços de hospedagem
+                                web adequados para garantir o
+                                desempenho e a segurança dos sites</li>
+                        </ul>
+                    </div>
+
+                    <div class="e-technologies">
+                        <h2>Keywords</h2>
+                        <ul class="e-technologies-list">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Hospedagem</li>
+                            <li>SEO</li>
+                            <li>Google Tag Manager</li>
+                            <li>Google ADS</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <!-- Footer -->
+                <div class="return">
+                    <span class="btn-return" onclick="voltar()">- Início -
+                    </span>
+                </div>
+
+                <!-- Efeito sonoros -->
+                <audio id="hoverSound">
+                    <source src="./assets/audio/select.wav"
+                        type="audio/mp3">
+                </audio>
+
+                <div class="copyright">
+                    <span>copyright © Caroline Calixto</span>
+                </div>
+            </div>
+        </section>
+        <script src="./script.js"></script>
+
+    </body>
+</html>
